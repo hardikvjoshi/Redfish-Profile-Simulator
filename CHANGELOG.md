@@ -8,3 +8,6 @@
 ## [0.9.1] - 2016-09-06
 - Initial Public Release
 - 
+
+## [0.9.2] - 2017-10-11
+- Add SAS Fabric support.

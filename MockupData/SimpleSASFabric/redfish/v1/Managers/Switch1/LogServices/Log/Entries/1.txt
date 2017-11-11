@@ -1,0 +1,25 @@
+{
+	"@odata.type": viewdetails"#LogEntry.v1_0_2.LogEntry",
+	"Id": viewdetails"1",
+	"Name": viewdetails"Log Entry 1",
+	"EntryType": viewdetails"SEL",
+	"OemRecordFormat": viewdetails"Contoso",
+	"Severity": viewdetails"OK",
+	"Created": viewdetails"2012-03-07T14:44",
+	"EntryCode": viewdetails"Informational",
+	"SensorType": viewdetails"System Event",
+	"SensorNumber": viewdetails1,
+	"Message": viewdetails"Log Cleared",
+	"MessageId": viewdetails"Event.1.0.LogClear",
+	collapse"MessageArgs": viewdetails[],
+	"Links": viewdetails{
+		"Oem": viewdetails{
+			
+		}
+	},
+	"Oem": viewdetails{
+		
+	},
+	"@odata.context": viewdetails"/redfish/v1/$metadata#LogEntry.LogEntry",
+	"@odata.id": viewdetails"/redfish/v1/Managers/Switch1/LogServices/Log/Entries/1"
+}

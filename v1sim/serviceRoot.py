@@ -6,6 +6,7 @@ import os
 
 from .accountService import RfAccountServiceObj
 from .chassis import RfChassisCollection
+from .fabrics import RfFabricsCollection
 from .managers import RfManagersCollection
 from .resource import RfResource, RfCollection
 from .resource import RfResourceRaw
@@ -29,6 +30,8 @@ class RfServiceRoot(RfResource):
                 self.components[item] = RfChassisCollection(base_path, os.path.join(rel_path, item), parent=self)
             elif item == "Managers":
                 self.components[item] = RfManagersCollection(base_path, os.path.join(rel_path, item), parent=self)
+            elif item == "Fabrics":
+                self.components[item] = RfFabricsCollection(base_path, os.path.join(rel_path, item), parent=self)
             elif item == "AccountService":
                 self.components[item] = RfAccountServiceObj(base_path, os.path.join(rel_path, item), parent=self)
             elif item == "SessionService":

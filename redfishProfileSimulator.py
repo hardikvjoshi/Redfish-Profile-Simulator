@@ -53,7 +53,8 @@ def rf_help():
 
 def main(argv):
     # set default option args
-    rf_profile_path = os.path.abspath("./MockupData/SimpleOcpServerV1")
+    #rf_profile_path = os.path.abspath("./MockupData/SimpleOcpServerV1")
+    rf_profile_path = os.path.abspath("./MockupData/SimpleSASFabric")
     rf_host = "127.0.0.1"
     rf_port = 5000
     

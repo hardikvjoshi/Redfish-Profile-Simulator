@@ -92,8 +92,11 @@ Some limitations to be extended in current implementation
 * accountService properties can be written, but failed logins, lockouts, etc is not implemented
 * system log not implemented yet
 
+## Added SAS Fabric 
+	* does exactly same function as DMTF Simple SAS fabric mockup example at http://redfish.dmtf.org/redfish/v1/mockup/847
 
-
+## TO DO 
+Add POST, PATCH and Delete functionality
 
 
 

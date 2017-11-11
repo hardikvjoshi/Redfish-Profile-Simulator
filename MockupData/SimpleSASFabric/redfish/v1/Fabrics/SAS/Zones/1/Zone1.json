@@ -1,0 +1,29 @@
+{
+	"@odata.context": viewdetails"/redfish/v1/$metadata#Zone.Zone",
+	"@odata.id": viewdetails"/redfish/v1/Fabrics/SAS/Zones/1",
+	"@odata.type": viewdetails"#Zone.v1_0_0.Zone",
+	"Id": viewdetails"1",
+	"Name": viewdetails"SAS Zone 1",
+	"Description": viewdetails"SAS Zone 1",
+	"Status": viewdetails{
+		"State": viewdetails"Enabled",
+		"Health": viewdetails"OK"
+	},
+	"Links": viewdetails{
+		"Endpoints": viewdetails[{
+			"@odata.id": viewdetails"/redfish/v1/Fabrics/SAS/Endpoints/Initiator1"gotothisresource
+		},
+		{
+			"@odata.id": viewdetails"/redfish/v1/Fabrics/SAS/Endpoints/Initiator2"gotothisresource
+		},
+		{
+			"@odata.id": viewdetails"/redfish/v1/Fabrics/SAS/Endpoints/Drive1"gotothisresource
+		},
+		{
+			"@odata.id": viewdetails"/redfish/v1/Fabrics/SAS/Endpoints/Drive3"gotothisresource
+		}]
+	},
+	"Oem": viewdetails{
+		
+	}
+}
